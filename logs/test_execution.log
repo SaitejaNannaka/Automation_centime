@@ -1,0 +1,6 @@
+2024-09-22 11:40:54,715 - INFO - Test tests/add_address.py::TestRegistrationLogin::test_case_13_add_billing_address PASSED
+2024-09-22 11:41:02,813 - ERROR - Test tests/add_address.py::TestRegistrationLogin::test_case_14_add_shipping_address FAILED
+Reason: <ExceptionInfo NoSuchWindowException('no such window: target window already closed\nfrom unknown error: web view not found\n  (Sessio...207038 <unknown>', '#14 0x5f28e8207203 <unknown>', '#15 0x5f28e8216f8c <unknown>', '#16 0x77ff01694ac3 <unknown>', '']) tblen=34>
+2024-09-22 11:41:19,394 - INFO - Starting test_case_16_verify_products_from_category
+2024-09-22 11:41:50,670 - INFO - Test case passed: Product 'Functional Programming in JS' is present in the category 'javascript'
+2024-09-22 11:41:50,670 - INFO - Test tests/products_list.py::TestShop::test_case_16_verify_products_from_category PASSED

@@ -1,0 +1,52 @@
+billing_address:
+  address_1: 123 Main Street
+  address_2: Apt 101
+  city: Hyderabad
+  company_name: ACME Corp
+  country: india
+  email: johndoe@example.com
+  first_name: haiti
+  last_name: Doe
+  phone: '1234567890'
+  postcode: '500001999'
+  state: Telangana
+existing_user:
+  email: newtest99@gmail.com
+  password: 9999@HariRam
+login:
+  password: boy1@gmail.com
+  username: boy1@gmail.com
+product_names:
+- Functional Programming in JS
+- Mastering JavaScripts
+- JS Data Structures and Algorithm
+products_to_add:
+  Android:
+  - Android Quick Start Guide
+  HTML:
+  - HTML5 Forms
+  - HTML5 WebApp Develpment
+registration:
+  email: saiteja_nannaka42bd0056b@example.com
+  password: 9999@HariRam
+shipping_address:
+  address_1: 456 Secondary Road
+  address_2: Suite 202
+  city: Mumbai
+  company_name: Tech Solutions
+  country: oman
+  email: jane.smith@example.com
+  first_name: Jane
+  last_name: Smith
+  phone: '9876543210'
+  postcode: '400001'
+  state: Maharashtra
+shop:
+  category: javascript
+  product_details: A comprehensive guide to functional programming in JavaScript
+  product_name: Functional Programming in JS
+  product_name_three: Mastering JavaScripts
+  product_name_two: JS Data Structures and Algorithm
+  product_names:
+  - Functional Programming in JS
+  - JS Data Structures and Algorithm

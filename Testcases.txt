@@ -1,0 +1,142 @@
+###High Level Testcases###
+
+**Login Test Cases:**
+1. Verify login page after entering valid username and password, then clicking login.
+2. Verify error message when login is attempted without entering username and password.
+3. Verify error message when login is attempted with username only, without password.
+4. Verify error message when login is attempted with password only, without username.
+5. Verify error message when login is attempted with correct username but incorrect password.
+
+**Register Test Cases:**
+1. Verify error message when registration is attempted without entering email and password.
+2. Verify error message when registration is attempted with email only, without password.
+3. Verify error message when registration is attempted with password only, without email.
+4. Verify error message when registration is attempted with short password.
+5. Verify error message when registration is attempted with already registered email and password.
+6. Verify registration response when entering valid email and password.
+7. Verify response when registering with email and password already in use.
+
+**Add Address Test Cases:**
+1. Verify billing address is saved after user registration/login and adding the address.
+2. Verify shipping address is saved after user registration/login and adding the address.
+3. Validate all required fields while adding billing address.
+4. Validate all required fields while adding shipping address.
+
+**Add Products Test Cases:**
+1. Verify required products are available in categories after user registration/login.
+2. Verify products are added to categories after user registration/login.
+3. Verify multiple products are added to categories based on different requirements.
+4. Verify products are available in cart after adding them to categories.
+
+
+### **Login Test Cases**
+1. **Valid Login Verification:**
+   - Enter a valid username and password.
+   - Click the "Login" button.
+   - Verify successful redirection to the home page.
+
+2. **Empty Fields Error Message:**
+   - Leave both the username and password fields blank.
+   - Click the "Login" button.
+   - Verify that the appropriate error message is displayed indicating that both fields are required.
+
+3. **Missing Password Error Message:**
+   - Enter a valid username.
+   - Leave the password field blank.
+   - Click the "Login" button.
+   - Verify that an error message is displayed, indicating that the password is required.
+
+4. **Missing Username Error Message:**
+   - Leave the username field blank.
+   - Enter a valid password.
+   - Click the "Login" button.
+   - Verify that an error message is displayed, indicating that the username is required.
+
+5. **Invalid Password Error Message:**
+   - Enter a valid username.
+   - Enter an incorrect password.
+   - Click the "Login" button.
+   - Verify that an error message is displayed, indicating incorrect login credentials.
+
+### **Register Test Cases**
+1. **Empty Fields Error Message:**
+   - Leave both the email and password fields blank.
+   - Click the "Register" button.
+   - Verify that an error message is displayed, indicating that both fields are required.
+
+2. **Missing Password Error Message:**
+   - Enter a valid email.
+   - Leave the password field blank.
+   - Click the "Register" button.
+   - Verify that an error message is displayed, indicating that the password is required.
+
+3. **Missing Email Error Message:**
+   - Leave the email field blank.
+   - Enter a valid password.
+   - Click the "Register" button.
+   - Verify that an error message is displayed, indicating that the email is required.
+
+4. **Short Password Error Message:**
+   - Enter a valid email.
+   - Enter a password shorter than the minimum length requirement.
+   - Click the "Register" button.
+   - Verify that an error message is displayed, indicating the password does not meet the minimum length requirement.
+
+5. **Existing Email Error Message:**
+   - Enter an email that is already registered.
+   - Enter a valid password.
+   - Click the "Register" button.
+   - Verify that an error message is displayed, indicating that the email is already in use.
+
+6. **Successful Registration Verification:**
+   - Enter a unique email and a valid password.
+   - Click the "Register" button.
+   - Verify that the user is successfully registered and redirected to the appropriate page.
+
+7. **Duplicate Registration Error Message:**
+   - Enter an email and password that have already been registered.
+   - Click the "Register" button.
+   - Verify that a suitable error message is displayed, indicating duplicate registration.
+
+### **Add Addresses Test Cases**
+1. **Add Billing Address:**
+   - Register or login to the user account.
+   - Add a billing address with all required fields.
+   - Verify that the billing address is successfully saved.
+
+2. **Add Shipping Address:**
+   - Register or login to the user account.
+   - Add a shipping address with all required fields.
+   - Verify that the shipping address is successfully saved.
+
+3. **Billing Address Field Validations:**
+   - Verify that all required fields for the billing address are properly validated.
+   - Test for empty fields, incorrect formats, and invalid inputs.
+
+4. **Shipping Address Field Validations:**
+   - Verify that all required fields for the shipping address are properly validated.
+   - Test for empty fields, incorrect formats, and invalid inputs.
+
+### **Add Products Test Cases**
+1. **Product Availability in Categories:**
+   - Register or login to the user account.
+   - Navigate to the product categories.
+   - Verify that the required products are available in the respective categories.
+
+2. **Add Single Product to Categories:**
+   - Register or login to the user account.
+   - Add a single product to the desired category.
+   - Verify that the product is successfully added to the category.
+
+3. **Add Multiple Products to Categories:**
+   - Register or login to the user account.
+   - Add multiple products to different categories based on requirements.
+   - Verify that all selected products are successfully added to the categories.
+
+4. **Verify Products in Cart After Adding:**
+   - Register or login to the user account.
+   - Add products to the categories.
+   - Verify that the added products are displayed correctly in the cart.
+
+
+

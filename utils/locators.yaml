@@ -1,0 +1,63 @@
+
+home_page:
+  my_account: "//nav[@id='main-nav-wrap']//ul[@id='main-nav']//li[a[text()='My Account']]"
+
+login_page:
+  username: "//div[@id='customer_login']//input[@type='text' and @name='username']"
+  password: "//div[@id='customer_login']//input[@type='password' and @id='password']"
+  login_button: "//input[@type='submit' and @value='Login' and @class='woocommerce-Button button']"
+
+registration_page:
+  email_address: "//div[@class='u-column2 col-2']//input[@type='email' and @name='email']"
+  password: "//div[@class='u-column2 col-2']//input[@type='password' and @id='reg_password']"
+  register_button: "//div[@class='u-column2 col-2']//input[@type='submit' and @name='register']"
+
+billing_address_page:
+  address: "//li[contains(@class, 'edit-address')]//a[text()='Addresses']"
+  billing_address : "//div[@class='u-column1 col-1 woocommerce-Address']//a[@href='https://practice.automationtesting.in/my-account/edit-address/billing' and @class='edit']"
+  shipping_address: "//div[@class='u-column2 col-2 woocommerce-Address']//a[@href='https://practice.automationtesting.in/my-account/edit-address/shipping' and @class='edit']"
+  first_name: "//p[@id='billing_first_name_field']//input[@id='billing_first_name']"
+  last_name: "//p[@id='billing_last_name_field']//input[@id='billing_last_name']"
+  company_name: "//p[@id='billing_company_field']//input[@id='billing_company']"
+  email: "//p[@id='billing_email_field']//input[@id='billing_email']"
+  phone: "//p[@id='billing_phone_field']//input[@id='billing_phone']"
+  country: "//p[@id='billing_country_field']//div[@id='s2id_billing_country']" # Click on this first
+  country_search_input: "//input[@id='s2id_autogen1_search']"  # Locator for the input field within the dropdown
+  address_1: "//p[@id='billing_address_1_field']//input[@id='billing_address_1']"
+  address_2: "//p[@id='billing_address_2_field']//input[@id='billing_address_2']"
+  city: "//p[@id='billing_city_field']//input[@id='billing_city']"
+  state: "//p[@id='billing_state_field']//input[@id='billing_state']"
+  state_search_input: "//div[@class='select2-search']//input[@id='s2id_autogen2_search']"
+  postcode: "//p[@id='billing_postcode_field']//input[@id='billing_postcode']"
+  save_button: "//input[@type='submit' and @name='save_address' and @value='Save Address']"
+
+shipping_address_page:
+  address: "//li[contains(@class, 'edit-address')]//a[text()='Addresses']"
+  shipping_address: "//div[@class='u-column2 col-2 woocommerce-Address']//a[@href='https://practice.automationtesting.in/my-account/edit-address/shipping' and @class='edit']"
+  first_name: "//p[@id='shipping_first_name_field']//input[@id='shipping_first_name']"
+  last_name: "//p[@id='shipping_last_name_field']//input[@id='shipping_last_name']"
+  company_name: "//p[@id='shipping_company_field']//input[@id='shipping_company']"
+  email: "//p[@id='billing_email_field']//input[@id='billing_email']"
+  phone: "//p[@id='billing_phone_field']//input[@id='billing_phone']"
+  country: "//div[@id='s2id_shipping_country']//span[text()='India']" # Click on this first
+  country_search_input: "//div[@class='select2-search']//input[@id='s2id_autogen1_search']"  # Locator for the input field within the dropdown
+  address_1: "//p[@id='shipping_address_1_field']//input[@id='shipping_address_1']"
+  address_2: "//p[@id='shipping_address_2_field']//input[@id='shipping_address_2']"
+  city: "//p[@id='shipping_city_field']//input[@id='shipping_city']"
+  state: "//p[contains(@class, 'form-row')]//input[@name='shipping_state']"
+  state_search_input: "//div[@class='select2-search']//input[@id='s2id_autogen2_search']"
+  postcode: "//p[@id='shipping_postcode_field']//input[@id='shipping_postcode']"
+  save_button: "//input[@class='button' and @type='submit']"
+
+
+shop_page:
+  shop: "//ul[@id='main-nav']/li[@id='menu-item-40']/a"
+  android_category: "//ul[@class='product-categories']/li/a[contains(@href, 'product-category/android') and text()='Android']"
+  html_category: "//ul[@class='product-categories']/li/a[contains(@href, 'product-category/html') and text()='HTML']"
+  javascript_category: "//ul[@class='product-categories']/li/a[contains(@href, 'product-category/javascript') and text()='JavaScript']"
+  selenium_category: "//ul[@class='product-categories']/li/a[contains(@href, 'product-category/selenium') and text()='selenium']"
+#  product_name: "//h3[contains(text(), 'Android Quick Start Guide')]"
+
+cart_page:
+  cart: "//a[@class='wpmenucart-contents' and @title='View your shopping cart']"
+  product_remove_button: "//tr[contains(., '{product_name}')]//a[contains(@class, 'remove')]"
